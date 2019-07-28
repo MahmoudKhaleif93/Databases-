@@ -1,6 +1,8 @@
+#firstly, you need to install the library of the python sql connector. 
 import mysql.connector
 #here you put all the info like ip address and name of the database 
 #it is important to make sure that the DB user has a full access so you can use it to retrieve the data. 
+#in host part , here i have used the local ip but in case of the newtwork add the Ip Address of Raspberry from the router. 
 mydb = mysql.connector.connect(
   host="127.0.0.1",
   user="mahmoud",
